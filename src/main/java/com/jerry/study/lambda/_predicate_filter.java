@@ -1,4 +1,4 @@
-package com.jerry.study.collection.lambda;
+package com.jerry.study.lambda;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 /**
  * @author 8400
  */
-public class predicate {
+public class _predicate_filter {
     public static void main(String[] args){
         List<String> languages = Arrays.asList("Java", "Scala", "C++", "Haskell", "Lisp", "Jerry", "Jab12a");
 
@@ -20,5 +20,7 @@ public class predicate {
         Predicate<String> longerThan4 = str -> str.length()>4;
 
         languages.stream().filter(startWithJ).filter(endWithA).filter(longerThan4).forEach(System.out::println);
+
+        languages.stream().filter(startWithJ.and(endWithA).or(longerThan4)).forEach(System.out::println);
     }
 }

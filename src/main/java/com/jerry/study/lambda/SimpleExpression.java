@@ -1,11 +1,11 @@
-package com.jerry.study.collection.lambda;
+package com.jerry.study.lambda;
 
 /**
  * @author 8400
  */
-public class MethodAsParameter {
+public class SimpleExpression {
     public static void main(String args[]){
-        MethodAsParameter tester = new MethodAsParameter();
+        SimpleExpression tester = new SimpleExpression();
 
         // 类型声明
         MathOperation addition = (int a, int b) -> a + b;

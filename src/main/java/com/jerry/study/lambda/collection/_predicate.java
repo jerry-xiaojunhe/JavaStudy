@@ -1,4 +1,4 @@
-package com.jerry.study.lambda.list;
+package com.jerry.study.lambda.collection;
 
 import java.util.Arrays;
 import java.util.List;

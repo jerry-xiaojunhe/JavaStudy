@@ -1,12 +1,12 @@
-package com.jerry.study.collection.lambda;
+package com.jerry.study.collection;
 
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author 8400
+ * @author xiaoj
  */
-public class foreach {
+public class _ArraysAsList {
     public static void main(String[] args){
         List<String> l = Arrays.asList("ab","cd");
 
