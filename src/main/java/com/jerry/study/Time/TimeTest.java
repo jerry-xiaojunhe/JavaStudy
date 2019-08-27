@@ -2,7 +2,6 @@ package com.jerry.study.Time;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -12,32 +11,36 @@ public class TimeTest {
     static SimpleDateFormat sDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
     public static void main(String[] args) throws ParseException {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-
-        LocalDateTime now = LocalDateTime.now();
-        String year = String.valueOf(now.getYear());
-        String month = String.valueOf(now.getMonthValue());
-        String day = String.valueOf(now.getDayOfMonth());
-        String hour = String.valueOf(now.getHour());
-        String minute;
-        if(now.getMinute()<30){
-            minute = "30";
-        }
-        else{
-            hour = String.valueOf(now.getHour() + 1);
-            minute = "00";
-        }
-
-        Date date = format.parse(year + "-" + month + "-" + day + " " + hour + ":"+minute+":00");
+//        Duration span = Duration.between()
 
 
 
-        System.out.println(date);
-
-        System.out.println("now: " + LocalDateTime.now());
-        LocalDateTime reserveTime = LocalDateTime.now().withHour(0).withMinute(0).withSecond(0).withNano(0);
-
-        System.out.println("reserve time: " + reserveTime);
+//        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+//
+//        LocalDateTime now = LocalDateTime.now();
+//        String year = String.valueOf(now.getYear());
+//        String month = String.valueOf(now.getMonthValue());
+//        String day = String.valueOf(now.getDayOfMonth());
+//        String hour = String.valueOf(now.getHour());
+//        String minute;
+//        if(now.getMinute()<30){
+//            minute = "30";
+//        }
+//        else{
+//            hour = String.valueOf(now.getHour() + 1);
+//            minute = "00";
+//        }
+//
+//        Date date = format.parse(year + "-" + month + "-" + day + " " + hour + ":"+minute+":00");
+//
+//
+//
+//        System.out.println(date);
+//
+//        System.out.println("now: " + LocalDateTime.now());
+//        LocalDateTime reserveTime = LocalDateTime.now().withHour(0).withMinute(0).withSecond(0).withNano(0);
+//
+//        System.out.println("reserve time: " + reserveTime);
     }
 
     public static void StringToDate(){
