@@ -1,4 +1,4 @@
-package com.jerry.study.lambda;
+package com.jerry.study.lambda.stream;
 
 import java.util.Arrays;
 import java.util.List;
