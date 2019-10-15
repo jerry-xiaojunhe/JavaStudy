@@ -2,7 +2,10 @@ package com.jerry.study.Time;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.ZonedDateTime;
 import java.util.Date;
+
+import static java.time.temporal.ChronoUnit.MICROS;
 
 /**
  * @auther xiaojun.he
@@ -11,6 +14,9 @@ public class TimeTest {
     static SimpleDateFormat sDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
     public static void main(String[] args) throws ParseException {
+        ZonedDateTime now = ZonedDateTime.now();
+        System.out.println(now);
+        System.out.println(now.truncatedTo(MICROS));
 //        Duration span = Duration.between()
 
 
