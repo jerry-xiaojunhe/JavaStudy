@@ -3,9 +3,8 @@ package com.jerry.study.temp;
 import java.io.File;
 
 /**
- * @auther Garry
+ * @auther Jarry
  */
-
 public class Test {
 
     public static void main(String[] args){
