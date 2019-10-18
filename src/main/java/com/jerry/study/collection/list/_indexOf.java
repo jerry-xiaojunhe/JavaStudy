@@ -17,7 +17,7 @@ public class _indexOf {
         aaa.removeIf(o -> o.startsWith("1"));
 
         System.out.println(aaa.size());
-        System.out.println(aaa.indexOf("abc") == 0);//1
+        System.out.println(aaa.indexOf("222"));//1
 
     }
 }
