@@ -9,7 +9,5 @@ public class Test {
     public static void main(String[] args){
         System.out.println(File.separator);
         ThreadLocal<Integer> obj;
-        // this is from remote
-        // this should be in stash
     }
 }
