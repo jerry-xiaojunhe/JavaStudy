@@ -1,4 +1,4 @@
-package com.jerry.study.collection.lambda;
+package com.jerry.study.lambda;
 
 /**
  * @author 8400

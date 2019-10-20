@@ -1,4 +1,4 @@
-package com.jerry.study.collection.sort.sorted;
+package com.jerry.study.lambda.collection.sort.sorted;
 
 /**
  * @auther Jerry

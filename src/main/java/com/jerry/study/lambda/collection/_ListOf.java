@@ -1,4 +1,4 @@
-package com.jerry.study.collection;
+package com.jerry.study.lambda.collection;
 
 /**
  * @auther Jerry

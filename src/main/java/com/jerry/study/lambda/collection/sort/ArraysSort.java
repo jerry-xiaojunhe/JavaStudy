@@ -1,4 +1,4 @@
-package com.jerry.study.collection.sort;
+package com.jerry.study.lambda.collection.sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;

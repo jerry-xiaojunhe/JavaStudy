@@ -1,4 +1,4 @@
-package com.jerry.study.collection.map;
+package com.jerry.study.lambda.collection.map;
 
 import java.util.Arrays;
 import java.util.HashMap;
