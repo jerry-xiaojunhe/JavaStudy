@@ -17,7 +17,7 @@ public class _collect {
         System.out.println("joining");
         List<String> G7 = Arrays.asList("USA", "Japan", "France", "Germany", "Italy", "U.K.", "Canada");
 
-        String G7Counties = G7.stream().map(x -> x.toUpperCase()).collect(Collectors.joining(", "));
+        String G7Counties = G7.stream().map(String::toUpperCase).collect(Collectors.joining(", "));
         System.out.println("Collectors.joining: " + G7Counties);
         System.out.println();
 
