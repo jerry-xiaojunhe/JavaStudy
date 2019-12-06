@@ -32,8 +32,7 @@ public class _ThreadLocalRandom {
         private final long cnt;
         private final CountDownLatch latch;
 
-        private RandomTask(Random rnd, int id, long cnt,
-                           CountDownLatch latch) {
+        private RandomTask(Random rnd, int id, long cnt, CountDownLatch latch) {
             super();
             this.rnd = rnd;
             this.id = id;
