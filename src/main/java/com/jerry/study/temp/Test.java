@@ -22,5 +22,10 @@ public class Test {
             return false;
         }).collect(Collectors.toList());
         b.forEach(System.out::println);
+
+        Integer int1 = 1;
+        Integer int2 = 2;
+
+        System.out.println(int1.equals(int2));
     }
 }
